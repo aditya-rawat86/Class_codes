@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-    printf("Enter character : ");
+    printf("Enter character = ");
     char c;
     scanf("%c", &c);
 
@@ -10,7 +10,9 @@ int main()
     {
         printf("Vowel");
     }
-    else
+    else 
+    {
         printf("Consonant");
+    }
     return 0;
 }
